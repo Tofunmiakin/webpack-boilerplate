@@ -1,9 +1,9 @@
 
-.cache/
-coverage/
-dist/*
+/.cache
+/coverage
+/dist
 !dist/index.html
-node_modules/
+/node_modules
 *.log
 
 # OS generated files
