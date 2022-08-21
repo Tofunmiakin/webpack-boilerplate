@@ -7,7 +7,7 @@ module.exports = {
 
   //  The output property defines the file path and the file name which will be used for deploying the bundled file
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "public"),
     filename: "bundle.js",
   },
 
@@ -24,8 +24,9 @@ module.exports = {
   },
 
   devServer: {
+    port: 3000,
     static: {
-      directory: "./dist",
+      directory: "./public",
     },
   },
   //Plugins can be used to perform bundle optimization, asset management and injection of environment variables
