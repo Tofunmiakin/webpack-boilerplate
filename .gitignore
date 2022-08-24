@@ -1,7 +1,6 @@
 /.cache
 /coverage
-public/*
-!public/index.html
+dist/
 /node_modules
 *.log
 
